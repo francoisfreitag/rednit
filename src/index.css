@@ -1,0 +1,8 @@
+body {
+    max-width: 600px;
+    margin: 40px auto;
+    line-height: 1.5;
+    font-size: 18px;
+    color: #444;
+    background: #eff;
+}
