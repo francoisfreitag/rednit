@@ -20,6 +20,7 @@ h2 {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15px;
+    gap: 5px;
 }
 
 b {
