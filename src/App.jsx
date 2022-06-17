@@ -84,7 +84,7 @@ function Rounds({ teams }) {
   return rounds.map((round, i) => (
     <React.Fragment key={round}>
       <h2>Round {i + 1}</h2>
-      <div class="round">
+      <div className="round">
         {round.map(([team1, team2], i) => (
           <React.Fragment key={i}>
             <b>{team1}</b>
