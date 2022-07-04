@@ -64,7 +64,7 @@ function oddRounds(teams) {
 
   const rounds = [];
   const carousel = teams.slice();
-  for (let i = 0; i < teams.length - 1; i++) {
+  for (let i = 0; i < teams.length; i++) {
     const currentRound = [];
     currentRound.push([carousel[0], carousel[2]]);
     const remainingPairCount = teams.length / 2 - 1;
